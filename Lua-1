@@ -1,0 +1,38 @@
+Aula Nº1 - Lua
+
+Objetivos - 
+
+-> Conhecer variáveis e funções
+
+-> Conhecer Eventos
+
+
+/// - comando estará aqui
+Dinheiro = 6000
+
+function aula01(player)
+  getPLayerMoney(player, Dinheiro)
+  takePlayerMoney(player, Dinheiro)
+end
+///
+
+///
+aula1 = creteMarker(x, y, z, "cylinder", 1.5, 255, 255, 255, 50)
+function amrd(player)
+  setElementModel(player, 17) -- setar skin
+end
+addEventHandler("onMarkerHit", aula1, amrd)
+///
+
+///
+function qlr()
+if visble == false then
+  addEventHandler("onClientRender", root, painel)
+  visble = true
+  else
+  removeEventHandler("onClientRender", root, painel)
+  visible = false
+  end
+  end
+  bindKey(Tecla, "down", qlr)
+///
